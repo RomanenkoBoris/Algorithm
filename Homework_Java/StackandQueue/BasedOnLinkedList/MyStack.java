@@ -1,4 +1,4 @@
-package HomeWork5;
+package StackandQueue.BasedOnLinkedList;
 
 public class MyStack extends MyLinkedList {
 

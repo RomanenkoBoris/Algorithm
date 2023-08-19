@@ -25,7 +25,7 @@ public class DynamicArray {
         for (int i = 0; i < size(); i++) {
             current.append(array[i]);
             if (i < size() - 1) {
-                current.append(", ")
+                current.append(", ");
             }
         }
         current.append("]");

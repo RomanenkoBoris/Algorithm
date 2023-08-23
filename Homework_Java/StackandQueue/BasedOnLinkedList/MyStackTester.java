@@ -1,8 +1,11 @@
 package HomeWork5;
 
+import StackandQueue.BasedOnArray.MyStack;
+import StackandQueue.BasedOnArray.MyStackImpl;
+
 public class MyStackTester {
     public static void main(String[] args) {
-        MyStack myStack = new MyStack();
+        MyStackImpl myStack = new MyStackImpl();
         System.out.println(myStack.empty());
         myStack.push(5);
         myStack.push(7);
